@@ -15,7 +15,7 @@ Meteor.methods({
             var burndownData = Burndown.findOne({projectId: projectId});
             if(burndownData) {
                 var dateNow = new Date();
-                var dateString = dateNow.getDate() + "." + (dateNow.getMonth() + 1) + "." + dateNow.getFullYear();
+                var dateString = (dateNow.getDate() <= 9 ? '0' + dateNow.getDate() : dateNow.getDate()) + "." + ((dateNow.getMonth() + 1)<=9 ? '0' + (dateNow.getMonth() + 1) : (dateNow.getMonth() + 1)) + "." + dateNow.getFullYear();
                 var stickiesNumber = Stickies.find({projectId: projectId, status: { $in: ["ToDo", "Started", "Verify"]}}).count();
                 if (!burndownData.data || !arrayContainsElement(burndownData.data, dateString)) {
                     Burndown.update({projectId: projectId}, { $push: { data: {date: dateString, numberOfStickies: stickiesNumber}}});

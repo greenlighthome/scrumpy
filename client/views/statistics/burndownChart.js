@@ -44,9 +44,18 @@ Template.burndownChartPage.rendered = function() {
             }
 
             if (burndownData) {
+                var count = 0;
                 for (var j = 0; j < burndownData.data.length; j++) {
-                    if (burndownData.data.length < 30) {
+                    if (burndownData.data[j].date == labels[j]) {
                         actualEffort.push(burndownData.data[j].numberOfStickies);
+                        count++;
+                    } else {
+                        while (burndownData.data[j].date != labels[count]) {
+                            actualEffort.push(burndownData.data[j - 1].numberOfStickies);
+                            count++;
+                        }
+                        actualEffort.push(burndownData.data[j].numberOfStickies);
+                        count++;
                     }
                 }
             }

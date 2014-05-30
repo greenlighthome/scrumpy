@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ac9799-262f-45ae-a861-f4d88351f7b3" name="Default" comment="" />
+    <list default="true" id="d2ac9799-262f-45ae-a861-f4d88351f7b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze" afterPath="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/autocompletion" afterPath="$PROJECT_DIR$/packages/autocompletion" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/blaze-layout" afterPath="$PROJECT_DIR$/packages/blaze-layout" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap-3" afterPath="$PROJECT_DIR$/packages/bootstrap-3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/chartjs" afterPath="$PROJECT_DIR$/packages/chartjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/iron-router-progress" afterPath="$PROJECT_DIR$/packages/iron-router-progress" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/iron-router" afterPath="$PROJECT_DIR$/packages/iron-router" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui" afterPath="$PROJECT_DIR$/packages/jquery-ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/roles" afterPath="$PROJECT_DIR$/packages/roles" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/spin" afterPath="$PROJECT_DIR$/packages/spin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/toastjs" afterPath="$PROJECT_DIR$/packages/toastjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/burndown.js" afterPath="$PROJECT_DIR$/collections/burndown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/statistics/burndownChart.js" afterPath="$PROJECT_DIR$/client/views/statistics/burndownChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/application/start.html" afterPath="$PROJECT_DIR$/client/views/application/start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="scrumpy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,10 +94,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
-    <option name="y" value="248" />
-    <option name="width" value="1478" />
-    <option name="height" value="953" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -112,6 +130,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="scrumpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrumpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrumpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -265,15 +293,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="248" width="1478" height="953" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="713" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24725944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24719101" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21551132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2152502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -283,6 +310,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -331,258 +359,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/statistics.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="27" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="2115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="8550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="24" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="14" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="8550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="24" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="1117" max-vertical-offset="2235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="14" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="23" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0" vertical-offset="1340" max-vertical-offset="2235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/release">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/projects/project_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="613" selection-end="628" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="48" selection-start="1112" selection-end="1112" vertical-scroll-proportion="1.150685" vertical-offset="165" max-vertical-offset="870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="3" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5541237" vertical-offset="370" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="7" selection-start="5136" selection-end="5136" vertical-scroll-proportion="0.56" vertical-offset="1860" max-vertical-offset="2625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dialogs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="464" selection-end="464" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="2025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.75" vertical-offset="330" max-vertical-offset="1380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="0" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.67826086" vertical-offset="135" max-vertical-offset="8550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="544" selection-end="544" vertical-scroll-proportion="0.34574467" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="24" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="1117" max-vertical-offset="2235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="826" selection-end="826" vertical-scroll-proportion="0.30499077" vertical-offset="0" max-vertical-offset="541" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="33" selection-end="33" vertical-scroll-proportion="0.026595745" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/application/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/less/statistics.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="27" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="2115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/statistics/barChart_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/statistics/burndownChart_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/statistics/burndownChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="106" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="9" selection-start="803" selection-end="803" vertical-scroll-proportion="-8.541667" vertical-offset="200" max-vertical-offset="2115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/helpers/toastOptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/toastjs/toast.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.45293072" vertical-offset="345" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/toastjs/package.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/toastjs/toast.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/toastjs/toast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="28" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/toastjs/toast-examples.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/statistics/statistics_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/settings/settings_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/settings/settings_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.4930468" vertical-offset="0" max-vertical-offset="840" />
-      </provider>
-    </entry>
   </component>
 </project>
 
