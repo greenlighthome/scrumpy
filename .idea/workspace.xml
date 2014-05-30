@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2ac9799-262f-45ae-a861-f4d88351f7b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze" afterPath="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/autocompletion" afterPath="$PROJECT_DIR$/packages/autocompletion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/blaze-layout" afterPath="$PROJECT_DIR$/packages/blaze-layout" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap-3" afterPath="$PROJECT_DIR$/packages/bootstrap-3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/chartjs" afterPath="$PROJECT_DIR$/packages/chartjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/iron-router-progress" afterPath="$PROJECT_DIR$/packages/iron-router-progress" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/iron-router" afterPath="$PROJECT_DIR$/packages/iron-router" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui" afterPath="$PROJECT_DIR$/packages/jquery-ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/roles" afterPath="$PROJECT_DIR$/packages/roles" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/spin" afterPath="$PROJECT_DIR$/packages/spin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/toastjs" afterPath="$PROJECT_DIR$/packages/toastjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/burndown.js" afterPath="$PROJECT_DIR$/collections/burndown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/statistics/burndownChart.js" afterPath="$PROJECT_DIR$/client/views/statistics/burndownChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/application/start.html" afterPath="$PROJECT_DIR$/client/views/application/start.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/autocompletion" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/blaze-layout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/bootstrap-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/chartjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/iron-router" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/iron-router-progress" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/roles" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/spin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/toastjs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scrumpy.iws" />
@@ -90,6 +85,7 @@
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/views/statistics/burndownChart_page.html" />
         <option value="$PROJECT_DIR$/packages/accounts-ui-bootstrap-3-blaze/login_buttons_dropdown.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -269,7 +265,15 @@
       <created>1401444858998</created>
       <updated>1401444858998</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Latest version.">
+      <created>1401450473447</created>
+      <updated>1401450473447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore added.">
+      <created>1401451001283</created>
+      <updated>1401451001283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -296,8 +300,9 @@
     <frame x="0" y="22" width="1280" height="713" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24719101" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24798712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2152502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -310,7 +315,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -355,10 +359,28 @@
     <MESSAGE value="poster&#10;initial commit&#10;" />
     <MESSAGE value="testing initial commit" />
     <MESSAGE value="testing initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing initial commit&#10;" />
+    <MESSAGE value="Latest version." />
+    <MESSAGE value="gitignore added." />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="439">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="439">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
