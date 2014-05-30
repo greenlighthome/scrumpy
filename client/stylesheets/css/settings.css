@@ -1,0 +1,125 @@
+input#notificationStickyCreated,
+input#notificationStickyEdited,
+input#notificationStickyMoved,
+input#notificationStickyDeleted,
+input#notificationStoryCreated,
+input#notificationStoryEdited,
+input#notificationStoryDeleted,
+input#notificationUsersAddedToProject,
+input#notificationUsersRemovedFromProject,
+input#notificationCommentAdded {
+  max-width: 0;
+  max-height: 0;
+  opacity: 0;
+}
+input#notificationStickyCreated + label,
+input#notificationStickyEdited + label,
+input#notificationStickyMoved + label,
+input#notificationStickyDeleted + label,
+input#notificationStoryCreated + label,
+input#notificationStoryEdited + label,
+input#notificationStoryDeleted + label,
+input#notificationUsersAddedToProject + label,
+input#notificationUsersRemovedFromProject + label,
+input#notificationCommentAdded + label {
+  display: block;
+  position: relative;
+  box-shadow: inset 0 0 0 1px #d5d5d5;
+  text-indent: -320px;
+  height: 16px;
+  width: 30px;
+  border-radius: 15px;
+  left: 340px;
+  float: left;
+}
+input#notificationStickyCreated + label:before,
+input#notificationStickyEdited + label:before,
+input#notificationStickyMoved + label:before,
+input#notificationStickyDeleted + label:before,
+input#notificationStoryCreated + label:before,
+input#notificationStoryEdited + label:before,
+input#notificationStoryDeleted + label:before,
+input#notificationUsersAddedToProject + label:before,
+input#notificationUsersRemovedFromProject + label:before,
+input#notificationCommentAdded + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: rgba(19, 191, 17, 0);
+  -moz-transition: 0.25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+input#notificationStickyCreated + label:after,
+input#notificationStickyEdited + label:after,
+input#notificationStickyMoved + label:after,
+input#notificationStickyDeleted + label:after,
+input#notificationStoryCreated + label:after,
+input#notificationStoryEdited + label:after,
+input#notificationStoryDeleted + label:after,
+input#notificationUsersAddedToProject + label:after,
+input#notificationUsersRemovedFromProject + label:after,
+input#notificationCommentAdded + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  top: 0px;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition: 0.25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+input#notificationStickyCreated:checked + label:before,
+input#notificationStickyEdited:checked + label:before,
+input#notificationStickyMoved:checked + label:before,
+input#notificationStickyDeleted:checked + label:before,
+input#notificationStoryCreated:checked + label:before,
+input#notificationStoryEdited:checked + label:before,
+input#notificationStoryDeleted:checked + label:before,
+input#notificationUsersAddedToProject:checked + label:before,
+input#notificationUsersRemovedFromProject:checked + label:before,
+input#notificationCommentAdded:checked + label:before {
+  width: 30px;
+  background: #13bf11;
+}
+input#notificationStickyCreated:checked + label:after,
+input#notificationStickyEdited:checked + label:after,
+input#notificationStickyMoved:checked + label:after,
+input#notificationStickyDeleted:checked + label:after,
+input#notificationStoryCreated:checked + label:after,
+input#notificationStoryEdited:checked + label:after,
+input#notificationStoryDeleted:checked + label:after,
+input#notificationUsersAddedToProject:checked + label:after,
+input#notificationUsersRemovedFromProject:checked + label:after,
+input#notificationCommentAdded:checked + label:after {
+  left: 15px;
+  box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+hr {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.settings-page h1 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.settings-page .settings {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 400px;
+  margin-bottom: 30px;
+  border: solid 1px #f9f9f9;
+  border-top: none;
+}

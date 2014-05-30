@@ -1,0 +1,36 @@
+<template name="projectsList">
+    <header class="application">
+        {{> navigation}}
+        {{> errors}}
+    </header>
+    <div class="custom-container">
+        <div class="project-block">
+            <div class="projects">
+                {{#each projects}}
+                {{> projectItem}}
+                {{/each}}
+
+                {{#if nextPath}}
+                <a class="load-more" href="{{nextPath}}">Load more</a>
+                {{/if}}
+
+                {{#if currentUser}}
+                    {{#if emptyProjects}}
+                <a href="{{pathFor 'projectCreate'}}">
+                    <div class="alert alert-info">
+                        <h3>Start by creating a new project</h3>
+                    </div>
+                </a>
+                    {{/if}}
+                {{else}}
+
+                <div class="alert alert-info">
+                    <h3>Sign in to access your projects</h3>
+                </div>
+                {{/if}}
+
+            </div>
+        </div>
+    </div>
+    {{> footerApplication}}
+</template>

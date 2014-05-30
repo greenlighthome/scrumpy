@@ -1,0 +1,57 @@
+<template name="settingsPage">
+    <header class="application">
+        {{> navigation}}
+        {{>errors}}
+    </header>
+
+    <div class="custom-container">
+        <div class="settings-page">
+            <h1>Settings</h1>
+            <h2>Manage notification subscriptions</h2>
+
+            <div class="settings">
+                <hr>
+
+                <input type="checkbox" name="notification" value="stickyCreated" id="notificationStickyCreated" {{checkedNotification 'stickyCreated'}}>
+                <label for="notificationStickyCreated">Sticky created: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="stickyEdited" id="notificationStickyEdited" {{checkedNotification 'stickyEdited'}}>
+                <label for="notificationStickyEdited">Sticky edited: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="stickyMoved" id="notificationStickyMoved" {{checkedNotification 'stickyMoved'}}>
+                <label for="notificationStickyMoved">Sticky moved: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="stickyDeleted" id="notificationStickyDeleted" {{checkedNotification 'stickyDeleted'}}>
+                <label for="notificationStickyDeleted">Sticky deleted: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="storyCreated" id="notificationStoryCreated" {{checkedNotification 'storyCreated'}}>
+                <label for="notificationStoryCreated">Story created: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="storyEdited" id="notificationStoryEdited" {{checkedNotification 'storyEdited'}}>
+                <label for="notificationStoryEdited">Story edited: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="storyDeleted" id="notificationStoryDeleted" {{checkedNotification 'storyDeleted'}}>
+                <label for="notificationStoryDeleted">Story deleted: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="usersAddedToProject" id="notificationUsersAddedToProject" {{checkedNotification 'usersAddedToProject'}}>
+                <label for="notificationUsersAddedToProject">Users added to project: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="usersRemovedFromProject" id="notificationUsersRemovedFromProject" {{checkedNotification 'usersRemovedFromProject'}}>
+                <label for="notificationUsersRemovedFromProject">Users removed from project: </label>
+                <hr>
+
+                <input type="checkbox" name="notification" value="commentAdded" id="notificationCommentAdded" {{checkedNotification 'commentAdded'}}>
+                <label for="notificationCommentAdded">Comment added: </label>
+            </div>
+        </div>
+    </div>
+    {{> footerApplication}}
+</template>

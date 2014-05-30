@@ -1,0 +1,97 @@
+<template name="notifications">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="fa fa-envelope"></span>
+        {{#if notificationCount}}
+            <span class="badge badge-inverse">{{notificationCount}}</span>
+        {{/if}}
+        <b class="caret"></b>
+    </a>
+    <ul class="notification dropdown-menu">
+        {{#if notificationCount}}
+            {{#each notifications}}
+                {{> notification}}
+            {{/each}}
+            <li class="markNotificationsAsRead">
+                <a href="#">Mark all notifications as read.</a>
+            </li>
+        {{else}}
+            <p>You got no notifications</p>
+        {{/if}}
+    </ul>
+</template>
+
+<template name="notification">
+    <ul class="notification-list">
+        {{#if notificationType 'comment'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'commentsPage'}}">
+                    <strong>{{author}}</strong> commented on {{projectTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'stickyCreated'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{author}}</strong> created a new Sticky on your project {{projectTitle}}.
+                </a>
+            </li>     
+        {{/if}}
+        {{#if notificationType 'stickyMoved'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{lastMoved}}</strong> moved the Sticky {{stickyTitle}} on your project {{projectTitle}} to {{stickyLocation}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'stickyEdited'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{lastEdited}}</strong> changed the Sticky title on your project {{projectTitle}} from {{stickyOldTitle}} to {{stickyTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'stickyDeleted'}}
+        <li class="notification-item">
+            <a href="{{notificationPath 'projectPage'}}">
+                <strong>{{userDeletedSticky}}</strong> deleted the Sticky on your project {{projectTitle}} from {{storyTitle}}.
+            </a>
+        </li>
+        {{/if}}
+        {{#if notificationType 'storyCreated'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{author}}</strong> created a new Story on your project {{projectTitle}} named {{storyTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'storyEdited'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{lastEdited}}</strong> changed the Story title on your project {{projectTitle}} from {{storyOldTitle}} to {{storyTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'storyDeleted'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{userDeletedStory}}</strong> deleted the Story {{storyTitle}} on your project {{projectTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'addUserToProject'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    <strong>{{author}}</strong> added the user {{userToAdd}} to your project {{projectTitle}}.
+                </a>
+            </li>
+        {{/if}}
+        {{#if notificationType 'removeUserFromProject'}}
+            <li class="notification-item">
+                <a href="{{notificationPath 'projectPage'}}">
+                    User {{userToRemove}} removed from {{projectTitle}}.
+                </a>
+            </li>
+        {{/if}}
+    </ul>
+    {{> footerApplication}}
+</template>

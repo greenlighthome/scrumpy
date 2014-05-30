@@ -1,0 +1,74 @@
+<template name="tableScrumBoard">
+        <div id="scrum-board">
+            {{>userStoriesList}}
+        </div>
+</template>
+
+<template name="userStoriesList">
+    <div id="drag">
+        <table>
+            <tr class="scrum-board-header">
+                <th class="table-stories mark">Stories</th>
+                <th class="table-plus mark"></th>
+                <th class="table-to-do mark">Todo</th>
+                <th class="table-started mark">Started</th>
+                <th class="table-verify mark">Verify</th>
+                <th class="table-done mark">Done</th>
+            </tr>
+                {{#each userStories}}
+                    <tr id="{{_id}}" class="story-row">
+                        <td class="stories mark">
+                            {{>userStory}}
+                        </td>
+                        <td class="plus mark">
+                            <button name="newToDo" class="glyphicon glyphicon-plus newToDo" type="button" data-toggle="modal" data-target=".bs-example-modal-sm"></button>
+                        </td>
+                        <td class="to-do">
+                            {{#each stickyType 'ToDo'}}
+                                {{>sticky}}
+                            {{/each}}
+                        </td>
+                        <td class="started">
+                            {{#each stickyType 'Started'}}
+                                {{>sticky}}
+                            {{/each}}
+                        </td>
+                        <td class="verify">
+                            {{#each stickyType 'Verify'}}
+                                {{>sticky}}
+                            {{/each}}
+                        </td>
+                        <td class="done">
+                            {{#each stickyType 'Done'}}
+                                {{>sticky}}
+                            {{/each}}
+                        </td>
+                    </tr>
+                {{/each}}
+            <tr class="story-row mark">
+                <td class="stories mark">
+                    <div class="story-input mark">
+                        <button name="newStory" class="btn btn-default newStory mark" type="button">New Story</button>
+                    </div>
+                </td>
+                <td class="plus mark">
+
+                </td>
+                <td class="to-do mark">
+
+                </td>
+                <td class="started mark">
+
+                </td>
+                <td class="verify mark">
+
+                </td>
+                <td class="done mark">
+
+                </td>
+            </tr>
+        </table>
+     </div>
+    {{>stickyAdd}}
+    {{>stickyEdit}}
+</template>

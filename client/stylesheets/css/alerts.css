@@ -1,0 +1,21 @@
+.alert-error {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background: rgba(255, 40, 10, 0.5);
+  width: 400px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: -1px 1px 3px #e8e8e8;
+  -moz-box-shadow: -1px 1px 3px #e8e8e8;
+  box-shadow: -1px 1px 3px #e8e8e8;
+}
+.alert-error p {
+  color: #ffffff;
+  padding: 10px;
+}

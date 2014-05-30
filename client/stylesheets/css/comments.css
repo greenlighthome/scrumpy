@@ -1,0 +1,7 @@
+form.comment-form {
+  font-family: "Helvetic Neue", Helvetica, Arial;
+  padding: 20px;
+}
+form.comment-form textarea {
+  display: block;
+}

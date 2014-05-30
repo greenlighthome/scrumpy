@@ -1,0 +1,36 @@
+<template name="commentsPage">
+    <header class="application">
+        {{> navigation}}
+        {{> errors}}
+    </header>
+    <div class="custom-container">
+        <div class="project-page">
+
+            <br>
+            <br>
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="{{pathFor 'projectPage'}}"><b>{{titleShort 'project'}}</b></a>
+                </li>
+                <li class="active">
+                    <a href="{{pathFor 'commentsPage'}}">Comments</a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'statisticsPage'}}">Statistics</a>
+                </li>
+            </ul>
+
+            <ul class="comments">
+                {{#each comments}}
+                    {{> comment}}
+                {{/each}}
+            </ul>
+            {{#if currentUser}}
+                {{> commentSubmit}}
+            {{else}}
+                <p>Please log in to leave a comment.</p>
+            {{/if}}
+        </div>
+    </div>
+    {{> footerApplication}}
+</template>

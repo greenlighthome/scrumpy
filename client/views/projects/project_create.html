@@ -1,0 +1,32 @@
+<template name="projectCreate">
+    <header class="application">
+        {{> navigation}}
+        {{>errors}}
+    </header>
+    <div class="custom-container">
+    <form class="main">
+    <h1>New project</h1>
+        <div class="control-group">
+            <label class="control-label" for="title">Title</label>
+            <div class="controls">
+                <input name="title" class="form-control" type="text" value="" placeholder="Name your project"/>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="description">Description</label>
+            <div class="controls">
+                <textarea name="description" class="form-control" type="text" value=""></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="control-group">
+            <div class="controls">
+                <input type="submit" value="Submit" class="btn btn-primary"/>
+                <a href="{{pathFor 'projectsList'}}" class="btn btn-danger btn-sm">Cancel</a>
+            </div>
+        </div>
+    </form>
+    </div>
+    {{> footerApplication}}
+</template>

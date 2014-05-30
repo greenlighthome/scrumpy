@@ -1,0 +1,67 @@
+@import "library.less";
+
+
+.alert {
+  margin-top: 100px;
+}
+.alert > h3:nth-child(1) {
+  text-align: center;
+  .text-shadow();
+  opacity: 0.80;
+}
+
+.project-block {
+  position: relative;
+  left: 35px;
+  margin-top: 50px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  .project {
+    float: left;
+    width: 450px;
+    height: 60px;
+    position: relative;
+    background: @color-light-gray;
+    margin: 20px auto;
+    padding: 0px 20px;
+    padding-bottom: 5px;
+    .border-radius();
+    .box-shadow(1px 1px 4px @color-shadow);
+    a {
+      color: #08C;
+    }
+    .project-content {
+      position: relative;
+      top: -10px;
+    }
+
+    p {
+      line-height: 0;
+    }
+    span {
+      margin-left: 20px;
+    }
+    a.discuss.btn {
+      position: absolute;
+      margin-left: 5px;
+      top: 13px;
+      right: 15px;
+    }
+    a.edit-btn {
+      right: 80px;
+    }
+  }
+}
+
+@media(max-width: 1113px) {
+  .project-block {
+    width: 530px;
+  }
+  .project {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+}
+

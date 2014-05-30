@@ -1,0 +1,41 @@
+@import "library.less";
+
+footer#landing-page {
+  background: @color-footer;
+  height: 300px;
+  color: @color-white;
+  .logo {
+    position: relative;
+    top: 110px;
+    left: 48%;
+  }
+  .build-with {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    top: 270px;
+    .fa-heart {
+      color: darkred;
+    }
+  }
+}
+
+footer.application-footer {
+  background: @color-footer;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  clear: both;
+  text-align: center;
+  .fa-github {
+    font-size: 2.4em;
+    margin-top: 7px;
+    color: @color-white;
+    opacity: 0.7;
+    .transition(all 0.3s ease);
+  }
+  .fa-github:hover {
+    opacity: 1.0;
+  }
+}

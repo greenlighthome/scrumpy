@@ -1,0 +1,23 @@
+<template name="navigation">
+
+    <div class="navigation">
+        <ul class="sub-navigation-left">
+            <li><a href="{{pathFor 'start'}}">Home</a></li>
+            {{#if currentUser}}
+                <li><a href="{{pathFor 'projectsList'}}">Projects</a></li>
+            {{/if}}
+            {{#if currentUser}}
+                <li id="new-project"><a href="{{pathFor 'projectCreate'}}">New Project</a></li>
+            {{/if}}
+        </ul>
+        <ul class="sub-navigation-right">
+            <li class="login">{{> loginButtons}}</li>
+            {{#if currentUser}}
+                <li class="notifications">{{> notifications}}</li>
+            {{/if}}
+
+            <li id="btn-help" data-toggle="popover"><a href="#" class="fa fa-question"></a></li>
+        </ul>
+    </div>
+</template>
+

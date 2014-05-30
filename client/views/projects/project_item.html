@@ -1,0 +1,20 @@
+<template name="projectItem">
+    <div class="project">
+        <div class="project-content">
+           <h3><a href="{{pathFor 'projectPage'}}">{{titleShort 'project'}}</a></h3>
+            <p>
+                <i>created by {{author}}</i>
+                {{#if userIsAdmin}}
+                    - <b>Admin</b>,
+                {{/if}}
+                {{#if userIsMember}}
+                    - <b>Member</b>,
+                {{/if}}
+                <i><a href="{{pathFor 'commentsPage'}}">{{commentsCount}} comments</a></i>
+            </p>
+        </div>
+        {{#if userIsAdmin}}
+            <a href="{{pathFor 'projectEdit'}}" class="discuss btn btn-default edit-btn">Edit</a>
+        {{/if}}
+    </div>
+</template>

@@ -1,0 +1,47 @@
+form.main {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: -1px 1px 1px #f0f0f0;
+  -moz-box-shadow: -1px 1px 1px #f0f0f0;
+  box-shadow: -1px 1px 1px #f0f0f0;
+}
+form.main label.control-label {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+form.main input,
+form.main label {
+  font-family: "Helvetic Neue", Helvetica, Arial;
+}
+form.main .input-group.add-member {
+  margin-top: 20px;
+}
+.fa-minus.minus {
+  display: inline;
+  float: right;
+  font-size: 1.7em;
+  bottom: 3px;
+  left: 6px;
+  opacity: 0.7;
+}
+.fa-minus.minus:hover {
+  opacity: 1;
+}
+.fa-plus {
+  position: relative;
+  font-size: 1.5em;
+  top: 1px;
+  color: #96c8ac;
+}
+.fa-plus:hover {
+  color: green;
+}
+button.add {
+  position: relative;
+  top: 15px;
+  padding: 4px 8px;
+}

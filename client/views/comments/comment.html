@@ -1,0 +1,15 @@
+<template name="comment">
+    <li>
+        <h4>
+            <span class="author">{{author}}</span>
+            <span class="date">on {{submittedText}}</span>
+
+            {{#if adminOrOwnerOfComment}}
+                <button class="glyphicon glyphicon-remove btn btn-danger btn-xs deleteComment"></button>
+                <button class="glyphicon glyphicon-pencil btn btn-default btn-xs editComment"></button>
+            {{/if}}
+
+        </h4>
+        <div class="commentBody"><p>{{body}}</p></div>
+    </li>
+</template>

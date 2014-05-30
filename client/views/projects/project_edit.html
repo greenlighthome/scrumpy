@@ -1,0 +1,59 @@
+<template name="projectEdit" xmlns="http://www.w3.org/1999/html">
+    <header class="application">
+        {{> navigation}}
+        {{> errors}}
+    </header>
+    <div class="custom-container">
+    <form class="main">
+        <h1>Edit project</h1>
+        <div class="control-group">
+            <label class="control-label" for="title">Title</label>
+            <div class="controls">
+                <input name="title" class="form-control" type="text" value="{{title}}" placeholder="Edit title"/>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="description">Description</label>
+            <div class="controls">
+                <textarea name="description" class="form-control">{{description}}</textarea>
+            </div>
+        </div>
+
+        {{> memberAutoComplete}}
+
+        {{#if membersInGroup}}
+            <br />
+            <ul class="list-group">
+                {{#each member}}
+                    {{> userListItem}}
+                {{/each}}
+            </ul>
+        {{/if}}
+
+        <hr>
+        <div class="control-group">
+            <div class="controls">
+                <input type="submit" value="Submit" class="btn btn-primary submit"/>
+            </div>
+        </div>
+        <hr/>
+        <div class="control-group">
+            <div class="controls">
+                <a class="btn btn-danger delete  btn-delete-item" href="">Delete project</a>
+            </div>
+        </div>
+    </form>
+    </div>
+    {{> footerApplication}}
+</template>
+
+<template name="memberAutoComplete">
+    <div class="input-group add-member">
+        <label class="control-label" for="members">Members</label>
+        <input name="members" id="memberAutocomplete" class="form-control" type="text" placeholder="Username">
+            <span class="input-group-btn">
+                <button name="addDeleteButton" class="btn btn-default addMember add" type="button"><span class="fa fa-plus text-success"></span></button>
+            </span>
+    </div>
+</template>

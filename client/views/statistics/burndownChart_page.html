@@ -1,0 +1,34 @@
+<template name="burndownChartPage">
+    <header class="application">
+        <a href="{{pathFor 'start'}}"></a>
+        {{> navigation}}
+        {{> errors}}
+    </header>
+
+    <div class="custom-container">
+        <div class="project-page">
+            <br>
+            <br>
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="{{pathFor 'projectPage'}}"><b>{{titleShort 'project'}}</b></a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'commentsPage'}}">Comments</a>
+                </li>
+                <li class="active dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{pathFor 'statisticsPage'}}">Statistics<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="{{pathFor 'burndownChartPage'}}">Burndown chart</a></li>
+                        <li><a href="{{pathFor 'barChartPage'}}">Bar chart</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h1>Burndown chart</h1>
+            <canvas class="img-responsive" id="burndownChart" width="1500px" height="400px"></canvas>
+
+        </div>
+    </div>
+    {{> footerApplication}}
+</template>

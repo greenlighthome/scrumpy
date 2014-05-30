@@ -1,0 +1,41 @@
+footer#landing-page {
+  background: #373435;
+  height: 300px;
+  color: #ffffff;
+}
+footer#landing-page .logo {
+  position: relative;
+  top: 110px;
+  left: 48%;
+}
+footer#landing-page .build-with {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  top: 270px;
+}
+footer#landing-page .build-with .fa-heart {
+  color: darkred;
+}
+footer.application-footer {
+  background: #373435;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  clear: both;
+  text-align: center;
+}
+footer.application-footer .fa-github {
+  font-size: 2.4em;
+  margin-top: 7px;
+  color: #ffffff;
+  opacity: 0.7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+footer.application-footer .fa-github:hover {
+  opacity: 1.0;
+}

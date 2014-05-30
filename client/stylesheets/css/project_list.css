@@ -1,0 +1,67 @@
+.alert {
+  margin-top: 100px;
+}
+.alert > h3:nth-child(1) {
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  opacity: 0.80;
+}
+.project-block {
+  position: relative;
+  left: 35px;
+  margin-top: 50px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-block .project {
+  float: left;
+  width: 450px;
+  height: 60px;
+  position: relative;
+  background: #f9f9f9;
+  margin: 20px auto;
+  padding: 0px 20px;
+  padding-bottom: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 1px 1px 4px #cccccc;
+  -moz-box-shadow: 1px 1px 4px #cccccc;
+  box-shadow: 1px 1px 4px #cccccc;
+}
+.project-block .project a {
+  color: #08C;
+}
+.project-block .project .project-content {
+  position: relative;
+  top: -10px;
+}
+.project-block .project p {
+  line-height: 0;
+}
+.project-block .project span {
+  margin-left: 20px;
+}
+.project-block .project a.discuss.btn {
+  position: absolute;
+  margin-left: 5px;
+  top: 13px;
+  right: 15px;
+}
+.project-block .project a.edit-btn {
+  right: 80px;
+}
+@media (max-width: 1113px) {
+  .project-block {
+    width: 530px;
+  }
+  .project {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+}

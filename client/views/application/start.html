@@ -1,0 +1,73 @@
+<template name="start">
+    <header class="main">
+        <a href="{{pathFor 'start'}}"><img class="logo" src="/images/logo.png" width="100"></a>
+    </header>
+    <section>
+        <div id="home">
+            <h2>Scrumble is an Agile Project Management Tool designed to sky-rocket your team's productivity</h2><br>
+            <div class="the-awesome">
+                <a class="btn-try" href="{{pathFor 'projectsList'}}">Try Scrumble for Free <span class="fa fa-long-arrow-right"></span></a>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="featured">
+            <div class="row">
+                <h2>Featured</h2>
+                <img class="img-responsive img-combo" src="/images/combo_graphics.svg">
+                <h3 class="real-time">Online real-time tracking anywhere on the world</h3>
+                <p class="real-time">Share your project and collaborate with team members anytime anywhere</p>
+            </div>
+            <div class="row features-list">
+                <h4>Features</h4>
+                <hr>
+                <div class="feature">
+                    <span class="fa fa-check"></span>
+                    <h5>User Management</h5>
+                    <p>Manage users and groups access to your project</p>
+                </div>
+                <div class="feature">
+                    <span class="fa fa-check"></span>
+                    <h5>Kanban</h5>
+                    <p>Know which stories are To Do, In Progress, Verified, and Done.</p>
+                </div>
+                <div class="feature">
+                    <span class="fa fa-times"></span>
+                    <h5>Backlog</h5>
+                    <p>Track and prioritize all work required to complete a project in one place.</p>
+                </div>
+                <div class="feature">
+                    <span class="fa fa-times"></span>
+                    <h5>Sprints</h5>
+                    <p>Organize stories into short sprints.</p>
+                </div>
+                <div class="feature">
+                    <span class="fa fa-times"></span>
+                    <h5>Burndown Charts</h5>
+                    <p>Use Burndown charts to watch as remaining work burns down over time.</p>
+                </div>
+                <div class="feature">
+                    <span class="fa fa-check"></span>
+                    <h5>Notification</h5>
+                    <p>Get live updates on the progress of your team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="email-us">
+            <div class="row">
+                <h3>If you have any question please drop us a line</h3>
+                <a class="" href="mailto:johncabron@gmail.com"><button class="btn-email-us">Email Us</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="landing-page">
+       <a href="{{pathFor 'projectsList'}}"><img class="logo" src="/images/logo.png" width="50"></a>
+       <p class="build-with">Build in Europe with <span class="fa fa-heart"></span> <a href="http://meteor.com">Meteor.js</a></p>
+    </footer>
+</template>
