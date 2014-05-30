@@ -28,14 +28,12 @@ TODO - Stories:
 1. Add basic stories [✓]
 2. Edit stories [✓]
 3. Delete stories [✓]
-4. Add more info about the story
 
 TODO - Stickies:
 1. Add basic stickies [✓]
 2. Save location to db [✓]
 3. Make them draggable and droppable [✓]
 4. Error handling [✓]
-5. Add more info about the sticky
 
 TODO - Comments:
 1. Add basic comment functionality [✓]
