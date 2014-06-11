@@ -2,7 +2,6 @@
   "packages": {
     "iron-router": {},
     "roles": {},
-    "autocompletion": {},
     "spin": {},
     "toastjs": {},
     "iron-router-progress": {},
@@ -12,7 +11,8 @@
       "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git"
     },
     "selenium-nightwatch": {
-        "path": "packages/selenium-nightwatch"
-    }
+      "path": "packages/selenium-nightwatch"
+    },
+    "autocompletion": {}
   }
 }

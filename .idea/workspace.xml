@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ac9799-262f-45ae-a861-f4d88351f7b3" name="Default" comment="Usability improvements.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/selenium/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/selenium/selenium-server-standalone-2.42.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch-output/FIREFOX_29.0.1_MAC_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/globals.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/launch_nightwatch_from_app_root.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/launch_nightwatch_from_package.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/methods.nightwatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch_from_app_root.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch_from_app_root_with_saucelabs.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch_from_package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/logs/seed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/tests-output/seed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/smart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="d2ac9799-262f-45ae-a861-f4d88351f7b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch-output/FIREFOX_29.0.1_MAC_start.xml" afterPath="$PROJECT_DIR$/packages/selenium-nightwatch/nightwatch-output/FIREFOX_29.0.1_MAC_start.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/readme.txt" afterPath="$PROJECT_DIR$/doc/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.lock" afterPath="$PROJECT_DIR$/smart.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -47,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="smart.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="smart.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+            <state line="18" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="start.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="270" selection-end="270" vertical-scroll-proportion="0.33582088" vertical-offset="0" max-vertical-offset="402">
+            <state line="10" column="5" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -128,10 +110,10 @@
         <option value="$PROJECT_DIR$/doc/readme.txt" />
         <option value="$PROJECT_DIR$/tests/test.js" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
-        <option value="$PROJECT_DIR$/smart.json" />
         <option value="$PROJECT_DIR$/tests/start.js" />
         <option value="$PROJECT_DIR$/packages/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/smart.json" />
       </list>
     </option>
   </component>
@@ -210,6 +192,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrumpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrumpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-nightwatch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,7 +368,11 @@
       <created>1402498507087</created>
       <updated>1402498507087</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="selenium-nightwatch package added.">
+      <created>1402509029569</created>
+      <updated>1402509029569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -396,7 +400,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30756843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,26 +465,13 @@
     <MESSAGE value="updated to Meteor 0.8.1.3." />
     <MESSAGE value="Added check to burndown chart text." />
     <MESSAGE value="Usability improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Usability improvements." />
+    <MESSAGE value="selenium-nightwatch package added." />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium-nightwatch package added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/burndown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.16483517" vertical-offset="60" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collections/comments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0291777" vertical-offset="388" max-vertical-offset="765">
@@ -711,7 +702,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="38" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.102564104" vertical-offset="1599" max-vertical-offset="1950">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -734,7 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1716418" vertical-offset="873" max-vertical-offset="1695">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/selenium-nightwatch/logs/seed.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
@@ -823,12 +807,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smart.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1567165" vertical-offset="465" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="270" selection-end="270" vertical-scroll-proportion="0.33582088" vertical-offset="0" max-vertical-offset="402">
+        <state line="10" column="5" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/selenium-nightwatch/tests-output/seed.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="378">
+          <folding />
         </state>
       </provider>
     </entry>

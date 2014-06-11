@@ -7,7 +7,6 @@ standard-app-packages
 iron-router
 accounts-password
 roles
-autocompletion
 email
 spin
 jquery
@@ -17,3 +16,4 @@ bootstrap-3
 chartjs
 accounts-ui-bootstrap-3-blaze
 selenium-nightwatch
+autocompletion
