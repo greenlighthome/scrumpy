@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="start"
+             errors="0"
+             failures="0"
+             tests="2">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="Scrumpy" package="start" skipped="0"
+    tests="2" time="" timestamp="">
+    
+    
+      <testcase name="Element &lt;body&gt; was visible after 353 milliseconds.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if the page title equals &quot;Scrumpy&quot;.">
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>

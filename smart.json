@@ -9,7 +9,10 @@
     "bootstrap-3": {},
     "chartjs": {},
     "accounts-ui-bootstrap-3-blaze": {
-        "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git"
+      "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git"
+    },
+    "selenium-nightwatch": {
+        "path": "packages/selenium-nightwatch"
     }
   }
 }

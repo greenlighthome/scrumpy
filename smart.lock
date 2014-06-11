@@ -13,6 +13,9 @@
       "accounts-ui-bootstrap-3-blaze": {
         "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git",
         "branch": "master"
+      },
+      "selenium-nightwatch": {
+        "path": "packages/selenium-nightwatch"
       }
     },
     "packages": {
@@ -60,6 +63,9 @@
         "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git",
         "branch": "master",
         "commit": "483632d035f0a1d1b9c9cecb75e3104ec46a69b5"
+      },
+      "selenium-nightwatch": {
+        "path": "packages/selenium-nightwatch"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

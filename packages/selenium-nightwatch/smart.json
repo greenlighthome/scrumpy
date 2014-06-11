@@ -1,0 +1,8 @@
+{
+    "name": "selenium-nightwatch",
+    "description": "Dead-easy acceptance testing for your Meteor app with Selenium and Nightwatch.",
+    "homepage": "https://github.com/awatson1978/selenium-nightwatch",
+    "author": "Abigail Watson  (http://www.pentasyllabic.com)",
+    "version": "0.1.3",
+    "git": "https://github.com/awatson1978/selenium-nightwatch.git"
+}
