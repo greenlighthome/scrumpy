@@ -1,3 +1,7 @@
+.alert-scrumboard {
+    margin: 10px;
+}
+
 .main {
   -webkit-box-shadow: -1px 1px 1px #f0f0f0;
   -moz-box-shadow: -1px 1px 1px #f0f0f0;
@@ -196,11 +200,7 @@ button.btn.btn-default.newStory {
 .sticky.drag:hover {
   border-color: #ccc;
 }
-button.newToDo {
-  opacity: 0.5;
-}
 button.newToDo:hover {
-  opacity: 1.0;
   color: #ccc;
 }
 .modal-dialog {

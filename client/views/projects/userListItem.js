@@ -25,6 +25,11 @@ Template.userListItem.events({
                             Toast.error(err);
                         }
                     });
+                    Meteor.call('reduceMembersCount', currentProjectId, function(err) {
+                        if (err) {
+                            Toast.error(err);
+                        }
+                    });
                 }
             } else {
                 Toast.error("Something went wrong.", "User not found.");

@@ -1,3 +1,10 @@
 <template name="noAccessToEdit">
-You are not allowed to access this page.
+    <div class="alert-error">
+        <a href="{{pathFor 'projectsList'}}">
+            <p>
+                You are not allowed to edit project settings. <br />
+                Please contact {{author}}, the project administrator.
+            </p>
+        </a>
+    </div>
 </template>

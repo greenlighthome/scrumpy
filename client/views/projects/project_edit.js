@@ -106,8 +106,13 @@ Template.projectEdit.events({
                         Toast.error(err);
                     }
                 });
-
+                Meteor.call('reduceMembersCount', currentProjectId, function(err) {
+                    if (err) {
+                        Toast.error(err);
+                    }
+                });
             }
+            tMember.value = "";
         }
     }
 });
@@ -145,8 +150,6 @@ Template.memberAutoComplete.events ({
 
 Template.projectEdit.rendered = function() {
     currentProjectId = this.data._id;
-
-
 
     $('.ui-autocomplete').on('click', '.ui-menu-item', function(){
         var addButton = $('[name="addDeleteButton"]')[0];
@@ -188,6 +191,11 @@ function addUserToProject(userToAdd) {
             }
         });
         Meteor.call('addUsersToRoles', userToAdd, currentProjectId + '-member', function(err) {
+            if (err) {
+                Toast.error(err);
+            }
+        });
+        Meteor.call('increaseMembersCount', currentProjectId, function(err) {
             if (err) {
                 Toast.error(err);
             }

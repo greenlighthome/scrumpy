@@ -4,8 +4,13 @@
             {{> errors}}
     </header>
     <div class="custom-container">
-        <br>
-        <br>
+        {{#if noMembersInGroup}}
+            <a href="{{pathFor 'projectEdit'}}">
+                <div class="alert alert-info">
+                    <strong>Well done!</strong> Now you can add members to your project.
+                </div>
+            </a>
+        {{/if}}
         <ul class="nav nav-tabs">
             <li class="active">
                 <a href="{{pathFor 'projectPage'}}"><b class="text-info">{{titleShort 'project'}}</b></a>

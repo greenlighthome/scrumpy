@@ -9,8 +9,11 @@
       "toastjs": {},
       "iron-router-progress": {},
       "bootstrap-3": {},
-      "accounts-ui-bootstrap-3-blaze": {},
-      "chartjs": {}
+      "chartjs": {},
+      "accounts-ui-bootstrap-3-blaze": {
+        "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
@@ -20,8 +23,8 @@
       },
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.2.8",
-        "commit": "68844ba216c348d332bdb840825850f497f515bb"
+        "tag": "v1.2.9",
+        "commit": "969b17fac5dfec66b6b12bfce4e37471d1a241d4"
       },
       "autocompletion": {
         "git": "https://github.com/sebdah/meteor-autocompletion.git",
@@ -40,23 +43,23 @@
       },
       "iron-router-progress": {
         "git": "https://github.com/Multiply/iron-router-progress.git",
-        "tag": "v0.3.1",
-        "commit": "3f7900feb4bb70a1289b39a1fdcd1f438c0335b3"
+        "tag": "v0.4.0",
+        "commit": "02f78bdaca4c13d59f548d5a0ce83408c34b56d1"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v3.1.1-1",
         "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
       },
-      "accounts-ui-bootstrap-3-blaze": {
-        "git": "https://github.com/rajit/meteor-accounts-ui-bootstrap-3.git",
-        "tag": "v0.3.7",
-        "commit": "a40b15f4b6213040accec10df97a7793e3a25225"
-      },
       "chartjs": {
         "git": "https://github.com/donskifarrell/meteor-chartjs.git",
         "tag": "v0.0.4",
         "commit": "9d2adcd1de3728c8227e8eb7da0dcb2e0df21d0b"
+      },
+      "accounts-ui-bootstrap-3-blaze": {
+        "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git",
+        "branch": "master",
+        "commit": "483632d035f0a1d1b9c9cecb75e3104ec46a69b5"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

@@ -7,7 +7,9 @@
     "toastjs": {},
     "iron-router-progress": {},
     "bootstrap-3": {},
-    "accounts-ui-bootstrap-3-blaze": {},
-    "chartjs": {}
+    "chartjs": {},
+    "accounts-ui-bootstrap-3-blaze": {
+        "git": "https://github.com/MatthiasEckhart/meteor-accounts-ui-bootstrap-3.git"
+    }
   }
 }

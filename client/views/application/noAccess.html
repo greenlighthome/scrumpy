@@ -1,3 +1,10 @@
 <template name="noAccess">
-You are not a member of this project.
+    <div class="alert-error">
+        <a href="{{pathFor 'projectsList'}}">
+            <p>
+                You are not a member of the project {{title}}. <br />
+                Please contact {{author}}, the project administrator.
+            </p>
+        </a>
+    </div>
 </template>

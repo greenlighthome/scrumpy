@@ -1,5 +1,4 @@
 <template name="navigation">
-
     <div class="navigation">
         <ul class="sub-navigation-left">
             <li><a href="{{pathFor 'start'}}">Home</a></li>
@@ -15,7 +14,6 @@
             {{#if currentUser}}
                 <li class="notifications">{{> notifications}}</li>
             {{/if}}
-
             <li id="btn-help" data-toggle="popover"><a href="#" class="fa fa-question"></a></li>
         </ul>
     </div>

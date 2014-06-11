@@ -32,7 +32,8 @@ Meteor.methods({
             author: user.username,
             submitted: new Date().getTime(),
             lastModified: new Date().getTime(),
-            commentsCount: 0
+            commentsCount: 0,
+            membersCount: 1
         });
 
         var projectId = Projects.insert(project);
@@ -48,6 +49,18 @@ Meteor.methods({
     reduceCommentsCount: function(projectId, commentsCount) {
         if(serverVar) {
             Projects.update({_id: projectId}, {$set:{commentsCount: commentsCount - 1}});
+        }
+    },
+    reduceMembersCount: function(projectId) {
+        if(serverVar) {
+            var project = Projects.findOne({_id: projectId});
+            Projects.update({_id: projectId}, {$set:{membersCount: project.membersCount - 1}});
+        }
+    },
+    increaseMembersCount: function(projectId) {
+        if(serverVar) {
+            var project = Projects.findOne({_id : projectId});
+            Projects.update({_id: projectId}, {$set:{membersCount: project.membersCount + 1}});
         }
     }
 });

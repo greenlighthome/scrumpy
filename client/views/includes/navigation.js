@@ -39,7 +39,14 @@ Template.navigation.rendered = function() {
         trigger: 'manual',
         delay: { show: 500, hide: 100 }
     });
-
+    $(".edit-btn").popover({
+        html: true,
+        title: '',
+        content: 'Add members',
+        placement: 'right',
+        trigger: 'manual',
+        delay: { show: 500, hide: 100 }
+    });
     $("#btn-help").click(function(e) {
         $('.login').popover('toggle');
         e.preventDefault();
@@ -54,6 +61,9 @@ Template.navigation.rendered = function() {
         e.preventDefault();
 
         $('.newStory').popover('toggle');
+        e.preventDefault();
+
+        $('.edit-btn').popover('toggle');
         e.preventDefault();
     });
 }
