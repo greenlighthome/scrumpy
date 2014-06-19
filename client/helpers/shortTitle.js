@@ -10,13 +10,13 @@ UI.registerHelper('titleShort', function (type) {
                 short = short.substring(0,20) + '...';
             }
         } else if (type == "sticky") {
-            if (short.length > 40) {
-                short = short.substring(0,40) + '...';
+            if (short.length > 50) {
+                short = short.substring(0,50) + '...';
             }
         }
         else if (type == "story") {
-            if (short.length > 9) {
-                short = short.substring(0,8) + '...';
+            if (short.length > 50) {
+                short = short.substring(0,50) + '...';
             }
         }
     }

@@ -1,14 +1,18 @@
 <template name="sticky">
     <div id="{{_id}}" class="sticky drag">
+
         <div class="sticky-draggable">
             <p>{{titleShort 'sticky'}}</p>
         </div>
 
-        <div class="sticky-controls">
-            <div class="control-wrapper">
-                <button class="glyphicon glyphicon-remove btn btn-danger btn-xs deleteSticky nodrag"></button>
-                <button class="glyphicon glyphicon-pencil btn btn-default btn-xs editSticky nodrag"></button>
+        <div class="sticky-footer">
+            <div class="sticky-controls">
+                <div class="control-wrapper">
+                    <button class="glyphicon glyphicon-remove btn btn-danger btn-xs deleteSticky nodrag"></button>
+                    <button class="glyphicon glyphicon-pencil btn btn-default btn-xs editSticky nodrag"></button>
+                </div>
             </div>
         </div>
+
     </div>
 </template>

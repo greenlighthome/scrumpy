@@ -41,6 +41,7 @@ tr.story-row {
   border-bottom: solid;
 }
 tr.story-row {
+  height: 160px;
   border-bottom: solid 1px rgba(0,128,0, 0.04);
 }
 .center:hover {
@@ -57,21 +58,59 @@ td.plus {
 td.stories {
   max-width: 100px;
 }
+
 .story {
-  .border-radius(4px);
+
+  font-size: 1.2em;
   width: 120px;
-  height: 60px;
+  height: 100px;
   margin: 10px auto;
-  padding: 5px;
-  background: #fff;
+  padding: 4px;
   border: solid 1px rgba(128,128,0, 0.09);
-  p {
-    position: relative;
-    top: 2px;
-    text-align: center;
-    line-height: 1.0em;
+  .border-radius(4px);
+
+  .text-area {
+    width: 100%;
+    height: 100px;
+    display: table;
+
+    p {
+      top: 2px;
+      line-height: 1.0em;
+
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
   }
+
+
+  .story-control {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+    text-align: center;
+    vertical-align: middle;
+
+    .deleteStory {
+      opacity: 0.1;
+      margin: 0 2px;
+    }
+    .editStory {
+      opacity: 0.1;
+      margin: 0 2px;
+    }
+    .deleteStory:hover {
+      opacity: 1.0;
+    }
+    .editStory:hover {
+      opacity: 1.0;
+    }
+  }
+
 }
+
 .square {
   float: left;
   height: 70px;
@@ -81,7 +120,7 @@ td.stories {
   background: #e38d13;
 }
 .story-input {
-  height: 50px;
+
   input.newStoryInput,
   input.editStoryInput {
     display: block;
@@ -109,26 +148,7 @@ td.stories {
     }
   }
 }
-.sticker-control {
-  position: relative;
-  display: block;
-  margin: 0 auto 3px auto;
-  width: 60px;
-  .deleteStory {
-    opacity: 0.1;
-    margin: 0 2px;
-  }
-  .editStory {
-    opacity: 0.1;
-    margin: 0 2px;
-  }
-  .deleteStory:hover {
-    opacity: 1.0;
-  }
-  .editStory:hover {
-    opacity: 1.0;
-  }
-}
+
 button.btn.btn-default.newStory {
   display: block;
   position: relative;
@@ -136,46 +156,69 @@ button.btn.btn-default.newStory {
   height: 30px;
 }
 .sticky {
-  background-color: #ffff00;
+  padding: 7px;
+  font-size: 1.1em;
+  width: 100px;
+  height: 100px;
   margin: 4px;
-  width: 80px;
-  height: 70px;
-  border: solid 1px #e3e3e3;
-  padding: 2px;
   float: left;
-  border-radius: 4px;
+
+  border: solid 1px #e3e3e3;
   box-shadow: 1px 1px 1px #e3e3e3;
+  background-color: @color-white;
+
   .sticky-draggable {
+    background: #f3f3f3;
     width: 100%;
-    height: 40px;
-    padding: 2px;
+    height: 64px;
+    padding: 10px 2px 2px 2px;
+    display: table;
+
+    p {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
   }
-  .sticky-controls {
-    cursor: default;
+  .sticky-footer {
+    padding-top: 2px;
+    padding-bottom: 2px;
     width: 100%;
-    height: 24px;
-    text-align: center;
-    .control-wrapper {
-      position: relative;
-      .deleteSticky,
-      .editSticky {
-        width: 25px;
-        height: 20px;
-        border: none;
-        background: none;
-        color: @color-black;
-        opacity: 0.8;
-        .transition(all 0.3s ease);
-      }
-      .deleteSticky {
-        margin-left: 3px;
-      }
-      .deleteSticky:hover,
-      .editSticky:hover {
-        color: #31748f;
+
+    background: #f3f3f3;
+
+    .sticky-controls {
+      cursor: default;
+      width: 100%;
+      height: 15px;
+      text-align: center;
+
+      .control-wrapper {
+        position: relative;
+
+        .deleteSticky,
+        .editSticky {
+          position: relative;
+          top: -5px;
+          width: 25px;
+          height: 20px;
+          border: none;
+          background: none;
+          color: @color-black;
+          opacity: 0.8;
+          .transition(all 0.3s ease);
+        }
+        .deleteSticky {
+          margin-left: 3px;
+        }
+        .deleteSticky:hover,
+        .editSticky:hover {
+          color: #31748f;
+        }
       }
     }
   }
+
   p {
     text-align: center;
     opacity: 1.0;
@@ -184,6 +227,43 @@ button.btn.btn-default.newStory {
     margin-bottom: 0;
   }
 }
+
+
+.sticky
+{
+  position: relative;
+}
+.sticky:before, .sticky:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.sticky:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
 .sticky.drag:hover {
   border-color: #ccc;
 }
@@ -243,3 +323,5 @@ button.newToDo:hover {
 .nav > li a:hover {
   background: #ccc/0.85;
 }
+
+

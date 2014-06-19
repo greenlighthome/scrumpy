@@ -315,6 +315,12 @@ function removeCancelEditStory(e, t, storyId) {
 
     var divStory = document.createElement("div");
     divStory.className = "story";
+
+
+    var textArea = document.createElement("div"); // <-----  added
+    textArea.className = "text-area";  // <-----  added
+
+
     var pStory = document.createElement("p");
 
     var editedStory = UserStories.findOne({_id: storyId});
@@ -322,13 +328,14 @@ function removeCancelEditStory(e, t, storyId) {
     pStory.innerHTML = editedStory.title;
 
     var divStickerControl = document.createElement("div");
-    divStickerControl.className = "sticker-control";
+    divStickerControl.className = "story-control";
 
     var buttonDeleteStory = document.createElement("button");
     var buttonEditStory = document.createElement("button");
     buttonDeleteStory.className = "glyphicon glyphicon-remove btn btn-danger btn-xs deleteStory";
     buttonEditStory.className = "glyphicon glyphicon-pencil btn btn-default btn-xs editStory";
-    divStory.appendChild(pStory);
+    divStory.appendChild(textArea);   // <-----  added
+    textArea.appendChild(pStory);
     divStory.appendChild(divStickerControl);
     divStickerControl.appendChild(buttonDeleteStory);
     divStickerControl.appendChild(buttonEditStory);

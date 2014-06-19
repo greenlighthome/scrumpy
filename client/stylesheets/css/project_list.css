@@ -1,4 +1,4 @@
-.alert > h3:nth-child(1) {
+.alert-projectList > h3:nth-child(1) {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   opacity: 0.80;
