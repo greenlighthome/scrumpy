@@ -5,11 +5,11 @@
              tests="2">
   
   <testsuite errors="0" failures="0" hostname="" id=""
-    name="Scrumpy" package="start" skipped="0"
+    name="Scrumpy title test" package="start" skipped="0"
     tests="2" time="" timestamp="">
     
     
-      <testcase name="Element &lt;body&gt; was visible after 425 milliseconds.">
+      <testcase name="Element &lt;body&gt; was visible after 527 milliseconds.">
         
         
       </testcase>
