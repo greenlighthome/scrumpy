@@ -1,4 +1,6 @@
 footer#landing-page {
+  position: relative;
+  top: 20px;
   background: #373435;
   height: 300px;
   color: #ffffff;

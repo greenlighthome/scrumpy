@@ -13,6 +13,7 @@
     "selenium-nightwatch": {
       "path": "packages/selenium-nightwatch"
     },
-    "autocompletion": {}
+    "autocompletion": {},
+    "runtime-appcache": {}
   }
 }
