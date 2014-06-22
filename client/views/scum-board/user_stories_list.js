@@ -351,7 +351,7 @@ Template.sticky.rendered = function() {
     // reference to the REDIPS.drag library
     var rd = REDIPS.drag;
 
-    // define event.changed handler
+    // define event.dropped handler
     rd.event.dropped = function () {
         var pos = rd.getPosition();
         var stickyId = rd.obj.getAttribute('id');
