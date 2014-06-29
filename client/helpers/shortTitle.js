@@ -9,12 +9,7 @@ UI.registerHelper('titleShort', function (type) {
             if (short.length > 20) {
                 short = short.substring(0,20) + '...';
             }
-        } else if (type == "sticky") {
-            if (short.length > 50) {
-                short = short.substring(0,50) + '...';
-            }
-        }
-        else if (type == "story") {
+        } else if (type == "sticky" || type == "story") {
             if (short.length > 50) {
                 short = short.substring(0,50) + '...';
             }
